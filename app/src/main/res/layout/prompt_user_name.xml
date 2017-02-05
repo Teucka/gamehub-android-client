@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/usernameInfoTextView"
+        android:text="@string/username_info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:hint="@string/username_hint"
+        android:text="@string/username_text"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:imeOptions="actionDone"
+        android:inputType="textShortMessage"
+        android:ems="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
